@@ -1,0 +1,36 @@
+body {
+  font-family: sans-serif;
+  margin: 30px auto;
+  box-sizing: border-box;
+}
+
+.tab-nav {
+  margin: 0;
+  padding: 0;
+}
+
+.tab-link {
+  color: #dfa612;
+  background: #222831;
+  border: 1px solid #dfa612;
+  border-bottom: none;
+  text-decoration: none;
+  padding: 10px 20px;
+  color: #fff;
+  display: inline-block;
+}
+
+.tab-link.is-active {
+  background: #49566b;
+}
+
+.tab-content {
+  display: none;
+  padding: 25px 15px;
+  background: #222831;
+}
+
+.tab-content.is-active {
+  display: block;
+  background: #49566b;
+}
